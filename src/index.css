@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-black: #010101;
+  --primary-yellow: #ffe760;
+}
+
+#root {
+  background: var(--primary-black);
+}
+
+* {
+  scroll-margin-top: 56px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-link {
+  width: 50px;
+  height: 50px;
+  color: #ffc107;
+}
+
+.contact-link:hover {
+  background: #ffc107;
+  color: #010101;
+  cursor: pointer;
+}
+
+i {
+  font-size: 1.75rem;
+}
