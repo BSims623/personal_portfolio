@@ -12,7 +12,7 @@ const Navbar = (props) => {
                     <div id="navbarsExample08" className="navbar-collapse justify-content-md-center collapse">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <button className="nav-link active" aria-current="page" onClick={() => props.landingRef.current?.scrollIntoView()}>Home</button>
+                                <button className="nav-link" aria-current="page" onClick={() => props.landingRef.current?.scrollIntoView()}>Home</button>
                             </li>
                             <li className="nav-item">
                                 <button className="nav-link" onClick={() => props.aboutRef.current?.scrollIntoView()}>About</button>

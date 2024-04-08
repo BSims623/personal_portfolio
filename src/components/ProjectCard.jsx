@@ -4,7 +4,7 @@ import tenziesImage from '../assets/images/tenzies-project.png'
 const ProjectCard = (props) => {
     return (
         <div className='border border-warning mt-3' style={{ width: '300px', height: '420px', position: 'relative' }}>
-            <a href={props.url}><img src={props.img} alt={props.alt} style={{ width: '100%', height: '200px', objectFit: 'cover' }} /></a>
+            <a href={props.url} target='_blank'><img src={props.img} alt={props.alt} style={{ width: '100%', height: '200px', objectFit: 'cover' }} /></a>
             <div className="d-flex justify-content-evenly py-3">
                 <a className="btn btn-warning" href={props.url} target='_blank'>Website</a>
                 <a className="btn btn-warning" href={props.github} target='_blank'>&lt;Source Code/&gt;</a>

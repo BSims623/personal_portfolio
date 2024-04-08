@@ -13,6 +13,11 @@ body {
   background: var(--primary-black);
 }
 
+/* Fonts */
+.quote-text {
+  font-size: 1.5rem;
+}
+
 * {
   scroll-margin-top: 56px;
 }
