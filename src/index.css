@@ -6,7 +6,7 @@ body {
 
 :root {
   --primary-black: #010101;
-  --primary-yellow: #ffe760;
+  --primary-yellow: #ffc107;
 }
 
 #root {
@@ -39,5 +39,13 @@ a {
 }
 
 i {
+  cursor: pointer;
+}
+
+.btn-icon {
   font-size: 1.75rem;
+}
+
+.selected-card {
+  border: 1px solid var(--primary-yellow);
 }

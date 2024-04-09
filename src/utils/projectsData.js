@@ -1,6 +1,7 @@
 import choroplethImg from '../assets/images/choropleth-project.png'
 import ghiProjectImg from '../assets/images/ghi-project.png'
 import tenziesImg from '../assets/images/tenzies-project.png'
+import heatmapImg from '../assets/images/heatmap-project.png'
 
 export const projectsData = [
     {
@@ -24,7 +25,15 @@ export const projectsData = [
         img: choroplethImg,
         url: "https://choropleth623.netlify.app/",
         github: "https://github.com/BSims623/fcc_choropleth",
-        description: "This is one of the Data Visualization projects on freeCodeCamp using the D3.js library.",
+        description: "This is a Data Visualization certification project on freeCodeCamp built with the D3.js library.",
+        skills: ["HTML", "CSS", "JavaScript", "D3.js"]
+    },
+    {
+        title: "Heat Map",
+        img: heatmapImg,
+        url: "https://heatmap623.netlify.app/",
+        github: "https://github.com/BSims623/fcc_choropleth",
+        description: "This is a Data Visualization certification project on freeCodeCamp built with the D3.js library.",
         skills: ["HTML", "CSS", "JavaScript", "D3.js"]
     }
 ]

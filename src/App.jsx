@@ -14,8 +14,8 @@ function App() {
       <Landing landingRef={landingRef} />
       <About aboutRef={aboutRef} />
       <Projects projectsRef={projectsRef} />
-      {/* <Contact contactRef={contactRef}/> */}
-      <ContactTwo contactRef={contactRef} />
+      <Contact contactRef={contactRef} />
+      {/* <ContactTwo contactRef={contactRef} /> */}
     </div>
   )
 }
