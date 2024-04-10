@@ -1,7 +1,7 @@
-import choroplethImg from '../assets/images/choropleth-project.png'
-import ghiProjectImg from '../assets/images/ghi-project.png'
-import tenziesImg from '../assets/images/tenzies-project.png'
-import heatmapImg from '../assets/images/heatmap-project.png'
+import choroplethImg from '../assets/images/choropleth-project.webp'
+import ghiProjectImg from '../assets/images/ghi-project.webp'
+import tenziesImg from '../assets/images/tenzies-project.webp'
+import heatmapImg from '../assets/images/heatmap-project.webp'
 
 export const projectsData = [
     {
