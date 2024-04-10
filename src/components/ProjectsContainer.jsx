@@ -64,6 +64,8 @@ const ProjectsContainer = () => {
                         isVisible={isVisible}
                         img={x.img}
                         alt={x.alt}
+                        ariaLabelWebLink={x.ariaLabelWebLink}
+                        ariaLabelGitLink={x.ariaLabelGitLink}
                         title={x.title}
                         url={x.url}
                         github={x.github}
