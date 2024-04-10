@@ -4,7 +4,7 @@ import aboutImage from '../assets/images/about-image.jpg'
 const About = ({ aboutRef }) => {
 
     return (
-        <section ref={aboutRef} id='about-section' className='container-sm py-5 border border-warning' style={{ maxWidth: '960px', background: 'var(--primary-black)' }}>
+        <section ref={aboutRef} id='about-section' className='container-sm py-5 about-section' style={{ maxWidth: '960px', background: 'var(--primary-black)' }}>
             <h1 className='text-center text-light'>Brian Sims</h1>
             <h2 className="text-center text-light">Software Developer</h2>
             <img className='rounded-circle d-block mx-auto mt-3' style={{ objectFit: 'cover' }} width={200} height={200} src={aboutImage} alt="A picture of Brian Sims." />

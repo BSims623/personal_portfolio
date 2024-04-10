@@ -75,13 +75,13 @@ const ProjectsContainer = () => {
                 })}
             </div>
             <div className="d-flex justify-content-center align-items-center py-3 px-2 mx-auto" style={{ width: '300px' }}>
-                <div className="rounded-circle contact-link border border-warning d-flex justify-content-center align-items-center me-auto" onClick={() => decrementIndex()}>
+                <div className="rounded-circle contact-link d-flex justify-content-center align-items-center me-auto" onClick={() => decrementIndex()}>
                     <i className="btn-icon fa-solid fa-arrow-left"></i>
                 </div>
                 {indexArray.map((x) => {
-                    return x === projectIndex ? <i key={x} className="fa-solid fa-circle text-warning mx-1"></i> : <i key={x} className="fa-regular fa-circle text-warning mx-1" onClick={() => { setProjectIndex(x); handleVisible(x); }}></i>
+                    return x === projectIndex ? <i key={x} className="fa-solid fa-circle text-blue mx-1"></i> : <i key={x} className="fa-regular fa-circle text-blue mx-1" onClick={() => { setProjectIndex(x); handleVisible(x); }}></i>
                 })}
-                <div className="rounded-circle contact-link border border-warning d-flex justify-content-center align-items-center ms-auto" onClick={() => incrementIndex()}>
+                <div className="rounded-circle contact-link d-flex justify-content-center align-items-center ms-auto" onClick={() => incrementIndex()}>
                     <i className="btn-icon fa-solid fa-arrow-right"></i>
                 </div>
             </div>

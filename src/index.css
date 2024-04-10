@@ -7,6 +7,8 @@ body {
 :root {
   --primary-black: #010101;
   --primary-yellow: #ffc107;
+  --primary-blue: #0d6efd;
+  /* --primary-blue: #084298; */
 }
 
 #root {
@@ -16,6 +18,10 @@ body {
 /* Fonts */
 .quote-text {
   font-size: 1.5rem;
+}
+
+.text-blue {
+  color: var(--primary-blue);
 }
 
 * {
@@ -29,11 +35,11 @@ a {
 .contact-link {
   width: 50px;
   height: 50px;
-  color: #ffc107;
+  color: var(--primary-blue);
 }
 
 .contact-link:hover {
-  background: #ffc107;
+  background: var(--primary-blue);
   color: #010101;
   cursor: pointer;
 }
@@ -46,6 +52,25 @@ i {
   font-size: 1.75rem;
 }
 
+.btn-blue {
+  background: var(--primary-blue);
+  color: var(--primary-black);
+}
+
+.btn-blue:hover {
+  border: 1px solid var(--primary-blue);
+  color: var(--primary-blue);
+}
+
 .selected-card {
-  border: 1px solid var(--primary-yellow);
+  border: 1px solid var(--primary-blue);
+}
+
+.about-section,
+.contact-link {
+  border: 1px solid var(--primary-blue);
+}
+
+.contact-section {
+  border-top: 1px solid var(--primary-blue);
 }
