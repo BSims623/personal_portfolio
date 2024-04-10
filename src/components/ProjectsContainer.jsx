@@ -63,6 +63,7 @@ const ProjectsContainer = () => {
                         projectIndex={projectIndex}
                         isVisible={isVisible}
                         img={x.img}
+                        alt={x.alt}
                         title={x.title}
                         url={x.url}
                         github={x.github}
