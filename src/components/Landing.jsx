@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import landingImage from '../assets/images/landing-image.jpg'
+import landingImage from '../assets/images/landing-image.webp'
 
 
 const Landing = ({ landingRef }) => {
