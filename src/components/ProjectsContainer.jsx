@@ -36,9 +36,10 @@ const ProjectsContainer = () => {
         } else if (i < 0) {
             setVisible([maxIndex - 2, maxIndex - 1, maxIndex])
         } else if (i > visible[0] + 2) {
-            setVisible(visible.map((x) => x + 1))
+            setVisible([i - 2, i - 1, i])
         } else if (i < visible[2] - 2) {
-            setVisible(visible.map((x) => x - 1))
+            let t = visible.map((x) => x - 1)
+            setVisible([i, i + 1, i + 2])
         }
     };
 

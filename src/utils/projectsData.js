@@ -2,6 +2,7 @@ import choroplethImg from '../assets/images/choropleth-project.webp'
 import ghiProjectImg from '../assets/images/ghi-project.webp'
 import tenziesImg from '../assets/images/tenzies-project.webp'
 import heatmapImg from '../assets/images/heatmap-project.webp'
+import opensacImg from '../assets/images/opensac-project.webp'
 
 export const projectsData = [
     {
@@ -25,6 +26,17 @@ export const projectsData = [
         github: "https://github.com/BSims623/Greenwood_Home_Inspection",
         description: "This is a website I built for a home inspector. He wanted a simple website for his business.",
         skills: ["React", "Bootstrap"]
+    },
+    {
+        title: "Opensac.org",
+        img: opensacImg,
+        alt: "Opensac.org project.",
+        url: "https://opensac.org/",
+        ariaLabelWebLink: "Visit opensac.org website.",
+        ariaLabelGitLink: "View opensac.org source code on github",
+        github: "https://github.com/code4sac/opensac.org",
+        description: "In April 2024 I joined code4sac, met some cool people and have been working/collaborating on the new opensac website.",
+        skills: ["Next.js", "Sass", "Github", "Figma"]
     },
     {
         title: "Choropleth Map",
