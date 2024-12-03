@@ -3,15 +3,16 @@ import ghiProjectImg from '../assets/images/ghi-project.webp'
 import tenziesImg from '../assets/images/tenzies-project.webp'
 import heatmapImg from '../assets/images/heatmap-project.webp'
 import opensacImg from '../assets/images/opensac-project.webp'
+import jimAlleyImg from '../assets/images/www_jim_alley.webp'
 
 export const projectsData = [
     {
         title: "Jim Alley Website",
-        img: tenziesImg,
+        img: jimAlleyImg,
         alt: "JimAlley.com landing page.",
         url: "https://jimalley.com/",
         ariaLabelWebLink: "Visit Jim Alley's website.",
-        ariaLabelGitLink: "View Tenzies source code on github",
+        ariaLabelGitLink: "View Jim Alley's website source code on github",
         github: "https://github.com/BSims623/",
         description: "This is a website I built for a West Sacramento writer.",
         skills: ["Next.js", "SCSS", "Git", "Netlify"]
