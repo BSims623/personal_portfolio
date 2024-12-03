@@ -6,6 +6,17 @@ import opensacImg from '../assets/images/opensac-project.webp'
 
 export const projectsData = [
     {
+        title: "Jim Alley Website",
+        img: tenziesImg,
+        alt: "JimAlley.com landing page.",
+        url: "https://jimalley.com/",
+        ariaLabelWebLink: "Visit Jim Alley's website.",
+        ariaLabelGitLink: "View Tenzies source code on github",
+        github: "https://github.com/BSims623/",
+        description: "This is a website I built for a West Sacramento writer.",
+        skills: ["Next.js", "SCSS", "Git", "Netlify"]
+    },
+    {
         title: "Tenzies",
         img: tenziesImg,
         alt: "Tenzies Landing page.",
