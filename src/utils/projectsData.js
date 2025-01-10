@@ -4,8 +4,33 @@ import tenziesImg from '../assets/images/tenzies-project.webp'
 import heatmapImg from '../assets/images/heatmap-project.webp'
 import opensacImg from '../assets/images/opensac-project.webp'
 import jimAlleyImg from '../assets/images/www_jim_alley.webp'
+import gpaImg from '../assets/images/gpa_project.webp'
+import cutMasterImg from '../assets/images/cut_master.webp'
+
 
 export const projectsData = [
+    {
+        title: "Cut Master",
+        img: cutMasterImg,
+        alt: "Cut Master landing page.",
+        url: "https://cutmaster.vercel.app/",
+        ariaLabelWebLink: "Visit Cut Master's website.",
+        ariaLabelGitLink: "View github.",
+        github: "https://github.com/BSims623/",
+        description: "This is a current project that creates optimal cut sheets for woodworkers.",
+        skills: ["Next.js", "TailwindCSS", "shadcn/ui", "Clerk.js", "Postgresql"]
+    },
+    {
+        title: "Golden Poppy Appraisal",
+        img: gpaImg,
+        alt: "GoldenPoppyAppraisal.com landing page.",
+        url: "https://goldenpoppyappraisal.com/",
+        ariaLabelWebLink: "Visit Golden Poppy Appraisal's website.",
+        ariaLabelGitLink: "View Golden Poppy Appraisal's source code on github",
+        github: "https://github.com/BSims623/",
+        description: "This is a website I built for a Sacramento appraiser.",
+        skills: ["Next.js", "TailwindCSS"]
+    },
     {
         title: "Jim Alley Website",
         img: jimAlleyImg,
