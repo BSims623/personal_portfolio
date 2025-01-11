@@ -27,7 +27,7 @@ export const projectsData = [
         url: "https://goldenpoppyappraisal.com/",
         ariaLabelWebLink: "Visit Golden Poppy Appraisal's website.",
         ariaLabelGitLink: "View Golden Poppy Appraisal's source code on github",
-        github: "https://github.com/BSims623/",
+        github: "https://github.com/BSims623/www_goldenpoppy",
         description: "This is a website I built for a Sacramento appraiser.",
         skills: ["Next.js", "TailwindCSS"]
     },
@@ -38,7 +38,7 @@ export const projectsData = [
         url: "https://jimalley.com/",
         ariaLabelWebLink: "Visit Jim Alley's website.",
         ariaLabelGitLink: "View Jim Alley's website source code on github",
-        github: "https://github.com/BSims623/",
+        github: "https://github.com/BSims623/www_jimalley",
         description: "This is a website I built for a West Sacramento writer.",
         skills: ["Next.js", "SCSS", "Git", "Netlify"]
     },
